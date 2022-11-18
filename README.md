@@ -13,7 +13,8 @@ repo -> https://github.com/reedx8/Portfolio
 
 _nov 17 2022:_
 
-- worked on navbar, wanted nabar html in on file, learned to use jQuery in order to do this.
+- worked on navbar, wanted navbar html in separate file, learned to use jQuery in order to do this.
+- Had a lot of trouble with the proper layout of the navbar. 
 
 _nov 15th 2022:_
 
