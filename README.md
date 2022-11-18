@@ -11,9 +11,13 @@ Deployed @ TBD
 Deployed @ TBD
 repo -> https://github.com/reedx8/Portfolio
 
+_nov 17 2022:_
+
+- worked on navbar, wanted nabar html in on file, learned to use jQuery in order to do this.
+
 _nov 15th 2022:_
 
-- adding to the README, and rereading the final project guidelines to get a better udnerstanding of the assignment. I then worked on getting a general outline of both what exact text content i would be using (eg describing myself in the about section) and general layout (eg ill use a one page website with sections to jump to, how i want each section to look, etc)
+- adding to the README, and rereading the final project guidelines to get a better understanding of the assignment. I then worked on getting a general outline of both what exact text content i would be using (eg describing myself in the about section) and general layout (eg ill use a one page website with sections to jump to, how i want each section to look, etc)
 
 _nov 14th 2022:_
 
