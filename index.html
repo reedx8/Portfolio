@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href="css/navbarStyles.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="css/navbarStyles.css" type="text/css" rel="stylesheet" /> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
       $(function () {
         $('#navbar').load('../pages/navbar.html');
+        $('#introSection').load('../pages/introSection.html');
       });
     </script>
     <title>Xavier's Portfolio</title>
@@ -18,18 +19,10 @@
     <main>
       <div id="navbar"></div>
       <div id="container">
-        <div id="intro">
-          <h1>Hi, I'm a Fullstack dev</h1>
-          <h2>Experienced in both web and mobile apps, producing quality work.</h2>
-        </div>
-        <div id="avatarAndLinks">
-          <img id="avatar" src="images/avatar.png" alt="Xavier's picture">
-          <div id="contactLinks">
-            <a href="https://www.github.com/reedx8"></a>
-            <img src="images/logos/github.png" alt="Github logo" />
-            <a href="https://www.linkedin.com/in/xreed/"></a>
-            <img src="images/logos/linkedin.png" alt="Linkedin logo" />
-          </div>
+        <div id="introSection"></div>
+        <div id="aboutSection"></div>
+        <div id="projectsSection"></div>
+        <div id="contactSection"></div>
       </div>
     </main>
   </body>
