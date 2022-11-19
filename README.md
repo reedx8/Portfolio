@@ -5,11 +5,16 @@ Deployed @ TBD
 ## How to run
 
 ## Libraries used
+1. To create border style around my avatar -- https://9elements.github.io/fancy-border-radius/
 
 ## Journal
 
 Deployed @ TBD
 repo -> https://github.com/reedx8/Portfolio
+
+_nov 19 2022:_
+- Created general layout of website for both mobile and desktop
+- Started adding content like my avatar in intro section.
 
 _nov 17 2022:_
 

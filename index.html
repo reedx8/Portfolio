@@ -10,7 +10,6 @@
     <script>
       $(function () {
         $('#navbar').load('../pages/navbar.html');
-        // $("#footer").load("footer.html");
       });
     </script>
     <title>Xavier's Portfolio</title>
@@ -18,16 +17,19 @@
   <body>
     <main>
       <div id="navbar"></div>
-      <div>
-        <p class="text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+      <div id="container">
+        <div id="intro">
+          <h1>Hi, I'm a Fullstack dev</h1>
+          <h2>Experienced in both web and mobile apps, producing quality work.</h2>
+        </div>
+        <div id="avatarAndLinks">
+          <img id="avatar" src="images/avatar.png" alt="Xavier's picture">
+          <div id="contactLinks">
+            <a href="https://www.github.com/reedx8"></a>
+            <img src="images/logos/github.png" alt="Github logo" />
+            <a href="https://www.linkedin.com/in/xreed/"></a>
+            <img src="images/logos/linkedin.png" alt="Linkedin logo" />
+          </div>
       </div>
     </main>
   </body>
