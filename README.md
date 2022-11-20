@@ -5,6 +5,7 @@ Deployed @ TBD
 ## How to run
 
 ## Libraries used
+
 1. To create border style around my avatar -- https://9elements.github.io/fancy-border-radius/
 
 ## Journal
@@ -13,13 +14,15 @@ Deployed @ TBD
 repo -> https://github.com/reedx8/Portfolio
 
 _nov 19 2022:_
+
 - Created general layout of website for both mobile and desktop
 - Started adding content like my avatar in intro section.
+- had a lot of trouble getting intro text to vertically center. Solved by correcting introTexts position in grid first, then adding flexbox to its child headline elements.
 
 _nov 17 2022:_
 
 - worked on navbar, wanted navbar html in separate file, learned to use jQuery in order to do this.
-- Had a lot of trouble with the proper layout of the navbar. 
+- Had a lot of trouble with the proper layout of the navbar.
 
 _nov 15th 2022:_
 
