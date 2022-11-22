@@ -13,6 +13,11 @@ Deployed @ TBD
 Deployed @ TBD
 repo -> https://github.com/reedx8/Portfolio
 
+_nov 21 2022:_
+- added the rest of the text content to all sections of page
+- started fully filling in about section.
+- had troubles with aboutHeadline h2 text messing up padding in introSection when h2 was 2em, also affecting position of aboutHeadline in its grid. Both were fixed when aboutHeadline h2 text changed to 1.5em.
+
 _nov 19 2022:_
 
 - Created general layout of website for both mobile and desktop
