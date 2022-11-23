@@ -58,6 +58,9 @@
     font-size: 1.2em;
     text-align: center;
 }
+.skillText > p {
+    text-align: center;
+}
 
 /* mobile view */
 
@@ -65,7 +68,7 @@
 @media (min-width: 640px) {
   #aboutSection {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
   }
   #aboutHeadline {
     grid-column: 1 / 3;
@@ -77,8 +80,9 @@
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 5px;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: 100px 1fr 1fr;
+    /* grid-gap: 5px; */
     /* padding: 10px; */
   }
   #previousWorkContainer {

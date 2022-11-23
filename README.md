@@ -13,6 +13,9 @@ Deployed @ TBD
 Deployed @ TBD
 repo -> https://github.com/reedx8/Portfolio
 
+_nov 23 2022:_
+- focused on adding all of the basic content (text for all sections, etc) to webpage, as well as contact form, to get the bare minimum done. However, having problem where adding text content in one section randomly adds space (ie padding) in other sections of the webpage. Fixing the grid rows to 600px each in root styles.css file instead of 1fr each seemed to fix this, and also further fixing rows in subrows (aboutSection's subgrid rows) also removed unwanted spacing being added as well, instead of just defaulting to using 1fr for row sizing. However, eventually I found the best way to fix this was to instead always use `grid-auto-rows: minmax(min-content, max-content);` instead of something like `grid-templates-rows: repeat(2, 1fr);`
+
 _nov 21 2022:_
 - added the rest of the text content to all sections of page
 - started fully filling in about section.
