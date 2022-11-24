@@ -1,5 +1,8 @@
 #introTextContainer {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #avatar {
@@ -16,16 +19,16 @@
 
 #introSection {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 /* mobile view */
 @media (max-width: 640px) {
   #introSection {
-    grid-template-rows: 140px 1fr;
+    /* grid-template-rows: 140px 1fr; */
+    grid-template-rows: repeat(2, auto);
     grid-template-columns: 1fr;
   } 
+
   #introTextContainer {
     grid-row: 1;
     grid-column: 1;
@@ -39,7 +42,8 @@
 /* tablet + desktop view */
 @media (min-width: 640px) {
   #introSection {
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr; */
+    grid-template-rows: auto;
     grid-template-columns: repeat(2, 1fr);
   }
   #avatarAndLinksContainer {
@@ -49,9 +53,5 @@
   #introTextContainer {
     grid-row: 1;
     grid-column: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }
