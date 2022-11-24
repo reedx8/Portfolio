@@ -11,12 +11,12 @@ Web page's css styles
   grid-template-columns: 1fr;
 }
 
-body {
+body, html {
   margin: 0;
   /* font-family: 'Open Sans', 'Helvetica Neue', sans-serif; */
   font-family: "Raleway";
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   background: #73c8a9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
