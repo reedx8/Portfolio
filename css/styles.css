@@ -1,14 +1,22 @@
 /*
 Web page's css styles
+
+mobile breakpoint = 640px and less
 */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 #container {
   display: grid;
-  /* grid-auto-rows: minmax(min-content, max-content); */
-  grid-template-rows: repeat(4, auto);
+  /* grid-template-rows: repeat(4, auto); */
+  grid-template-rows: 100vh auto auto auto;
   grid-template-columns: 1fr;
+}
+
+@media (max-width: 640px) {
+  #container {
+    grid-template-rows: repeat(4, auto);
+  }
 }
 
 body, html {
