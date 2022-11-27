@@ -10,12 +10,15 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   margin: 10px auto;
   display: block;
-  /* width: 20%; */
 }
 
 #contactLinksContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+#contactLinksContainer > div {
+  margin: 0 10px;
 }
 
 #introSection {
@@ -25,7 +28,6 @@
 /* mobile view */
 @media (max-width: 640px) {
   #introSection {
-    /* grid-template-rows: 140px 1fr; */
     grid-template-rows: repeat(2, auto);
     grid-template-columns: 1fr;
   }
@@ -34,6 +36,7 @@
     grid-row: 1;
     grid-column: 1;
   }
+
   #avatarAndLinksContainer {
     grid-row: 2;
     grid-column: 1;
@@ -43,14 +46,15 @@
 /* tablet + desktop view */
 @media (min-width: 640px) {
   #introSection {
-    /* grid-template-rows: 1fr; */
     grid-template-rows: auto;
     grid-template-columns: repeat(2, 1fr);
   }
+
   #avatarAndLinksContainer {
     grid-row: 1;
     grid-column: 2;
   }
+
   #introTextContainer {
     grid-row: 1;
     grid-column: 1;

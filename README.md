@@ -13,6 +13,9 @@ Deployed @ https://xaviers-portfolio.netlify.app
 Deployed @ https://xaviers-portfolio.netlify.app 
 repo -> https://github.com/reedx8/Portfolio
 
+_nov 27 2022:_
+- checked code validity, accessibility, clean code, etc today.
+
 _nov 26 2022:_
 - worked on and eventually finished mobile navbar by following this tutorial and modifying the code -> https://www.youtube.com/watch?v=OjQP7rPwJyE
 - used this tutorial to get blur affect on projectsSection -> https://www.youtube.com/watch?v=wiIbol5tZaI
@@ -37,7 +40,7 @@ _nov 19 2022:_
 _nov 17 2022:_
 
 - worked on navbar, wanted navbar html in separate file, learned to use jQuery in order to do this.
-- Had a lot of trouble with the proper layout of the navbar.
+- Had a lot of trouble with the proper layout of the navbar. Following tutorials helped -> https://www.w3schools.com/howto/howto_css_center-list.asp, https://www.w3schools.com/css/css_navbar_horizontal.asp
 
 _nov 15th 2022:_
 
