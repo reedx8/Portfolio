@@ -16,7 +16,6 @@ $(document).ready(function () {
   function validateEmail() {
     const email = $('#email').val();
     const regexp = new RegExp("^[A-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[A-Z0-9.-]+$");
-
     if (email.length == 0 || regexp.test(email)) {
       $('#emailcheck').show();
       return false;
@@ -25,7 +24,7 @@ $(document).ready(function () {
   }
 
   function validateMessage() {
-    const message = $('#message-container').val();
+    const message = $('#message').val();
     if (message.length == 0) {
       $('#messagecheck').show();
       return false;
@@ -33,10 +32,12 @@ $(document).ready(function () {
     return true;
   }
 
+  // accessible for both click and keypress
   $('.btn-submit').click(function (e) {
     validateName();
     validateEmail();
     validateMessage();
+
     if (validateName() && validateEmail() && validateMessage()) {
       return true;
     }

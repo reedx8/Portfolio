@@ -9,7 +9,7 @@
 
 #name,
 #email,
-#message-container {
+#message {
   width: 65%;
   padding: 5px;
   border: 1px solid var(--gray3);
@@ -24,7 +24,7 @@
   margin-left: 45px;
 }
 
-#message-container {
+#message {
   margin-left: 20px;
   height: 200px;
 }
