@@ -1,6 +1,6 @@
 # portfolio
 
-Deployed @ https://verdant-flan-4d331a.netlify.app
+Deployed @ https://xaviers-portfolio.netlify.app 
 
 ## How to run
 
@@ -10,7 +10,7 @@ Deployed @ https://verdant-flan-4d331a.netlify.app
 
 ## Journal
 
-Deployed @ https://verdant-flan-4d331a.netlify.app
+Deployed @ https://xaviers-portfolio.netlify.app 
 repo -> https://github.com/reedx8/Portfolio
 
 _nov 26 2022:_
