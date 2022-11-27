@@ -1,6 +1,6 @@
 # portfolio
 
-Deployed @ TBD
+Deployed @ https://verdant-flan-4d331a.netlify.app
 
 ## How to run
 
@@ -10,12 +10,13 @@ Deployed @ TBD
 
 ## Journal
 
-Deployed @ TBD
+Deployed @ https://verdant-flan-4d331a.netlify.app
 repo -> https://github.com/reedx8/Portfolio
 
 _nov 26 2022:_
 - worked on and eventually finished mobile navbar by following this tutorial and modifying the code -> https://www.youtube.com/watch?v=OjQP7rPwJyE
 - used this tutorial to get blur affect on projectsSection -> https://www.youtube.com/watch?v=wiIbol5tZaI
+- hosted website on netlify
 
 _nov 23 2022:_
 - focused on adding all of the basic content (text for all sections, etc) to webpage, as well as contact form, to get the bare minimum done. However, having problem where adding text content in one section randomly adds space (ie padding) in other sections of the webpage. Fixing the grid rows to 600px each in root styles.css file instead of 1fr each seemed to fix this, and also further fixing rows in subrows (aboutSection's subgrid rows) also removed unwanted spacing being added as well, instead of just defaulting to using 1fr for row sizing. However, eventually I found the best way to fix this was to instead always use `grid-auto-rows: minmax(min-content, max-content);` instead of something like `grid-templates-rows: repeat(2, 1fr);`
