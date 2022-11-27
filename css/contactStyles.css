@@ -1,6 +1,6 @@
 .form {
-  margin: 30px auto;
   padding: 10px;
+  text-align: center;
 }
 
 .heading {
@@ -17,7 +17,7 @@
 }
 
 #name {
-  margin-left: 2px;
+  margin-left: 5px;
 }
 
 #email {
@@ -25,7 +25,7 @@
 }
 
 #message-container {
-  margin-left: 5px;
+  margin-left: 20px;
   height: 200px;
 }
 
@@ -33,34 +33,35 @@
   text-align: center;
 }
 
-.btn-submit {
-  width: 40%;
+.btn-submit, .btn-reset {
+  width: 20%;
   padding: 10px 40px;
-  background-color: var(--green);
   border: 1px solid var(--green);
   font-size: 15px;
+
+}
+
+.btn-submit {
+  background-color: var(--green);
   color: var(--white);
 }
 
 .btn-reset {
-  width: 40%;
-  padding: 10px 40px;
   background-color: var(--white);
   background: none;
-  border: 1px solid var(--green);
   color: var(--green);
-  font-size: 15px;
 }
 
 .btn-submit:hover,
 .btn-reset:hover {
   background-color: var(--orange);
   color: var(--black);
+  cursor: pointer;
 }
 
 .name-container,
 .email-container,
 .message-container {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   display: block;
 }
