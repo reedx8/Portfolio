@@ -10,14 +10,16 @@ nav {
 #navbar {
   background-color: var(--black);
   margin: 0;
+  padding: 0;
   list-style: none;
   overflow: hidden;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-item {
   display: inline-block;
-  padding: 0 1rem;
+  margin: 0 0.8rem;
 }
 
 .nav-link:hover {
@@ -38,6 +40,10 @@ nav {
 @media (max-width: 640px) {
   nav {
     padding: 0.8rem;
+  }
+
+  #navbar {
+    text-align: center;
   }
 
   nav #navbar {
