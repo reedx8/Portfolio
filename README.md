@@ -1,59 +1,27 @@
-# portfolio
+# Portfolio
+My personal website and portfolio. Deployed @ https://xaviers-portfolio.netlify.app 
 
-Deployed @ https://xaviers-portfolio.netlify.app 
+## How to Run
+Navigate to https://xaviers-portfolio.netlify.app, or:
+1. Download the repo
+2. Open the project folder in vscode
+3. Right click on "index.html" file in vscode and select "open with live server"
 
-## How to run
+## Libraries/Tech Used
+1. HTML/CSS
+2. JavaScript
+3. jQuery
+4. fonts.googleapis.com fonts and icons
 
-## Libraries used
-
-1. To create border style around my avatar -- https://9elements.github.io/fancy-border-radius/
-
-## Journal
-
-Deployed @ https://xaviers-portfolio.netlify.app 
-repo -> https://github.com/reedx8/Portfolio
-
-_nov 27 2022:_
-- checked code validity, accessibility, clean code, etc today.
-
-_nov 26 2022:_
-- worked on and eventually finished mobile navbar by following this tutorial and modifying the code -> https://www.youtube.com/watch?v=OjQP7rPwJyE
-- used this tutorial to get blur affect on projectsSection -> https://www.youtube.com/watch?v=wiIbol5tZaI
-- hosted website on netlify
-- redid contact form, and fixed its layout. Used this page to get regexp for email input -> https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s01.html. Had significant problems trying to get the form to both submit form on valid input and showing why invalid input to user, without it also scrolling to top on submit. Solved the problem by using jQuery and following this tutorial -> https://www.geeksforgeeks.org/form-validation-using-jquery/ 
-
-_nov 23 2022:_
-- focused on adding all of the basic content (text for all sections, etc) to webpage, as well as contact form, to get the bare minimum done. However, having problem where adding text content in one section randomly adds space (ie padding) in other sections of the webpage. Fixing the grid rows to 600px each in root styles.css file instead of 1fr each seemed to fix this, and also further fixing rows in subrows (aboutSection's subgrid rows) also removed unwanted spacing being added as well, instead of just defaulting to using 1fr for row sizing. However, eventually I found the best way to fix this was to instead always use `grid-auto-rows: minmax(min-content, max-content);` instead of something like `grid-templates-rows: repeat(2, 1fr);`
-- used a contact form from a code pen i found, and modified it to fit my needs with my own code
-
-_nov 21 2022:_
-- added the rest of the text content to all sections of page
-- started fully filling in about section.
-- had troubles with aboutHeadline h2 text messing up padding in introSection when h2 was 2em, also affecting position of aboutHeadline in its grid. Both were fixed when aboutHeadline h2 text changed to 1.5em.
-
-_nov 19 2022:_
-
-- Created general layout of website for both mobile and desktop
-- Started adding content like my avatar in intro section.
-- had a lot of trouble getting intro text to vertically center. Solved by correcting introTexts position in grid first, then adding flexbox to its child headline elements.
-
-_nov 17 2022:_
-
-- worked on navbar, wanted navbar html in separate file, learned to use jQuery in order to do this.
-- Had a lot of trouble with the proper layout of the navbar. Following tutorials helped -> https://www.w3schools.com/howto/howto_css_center-list.asp, https://www.w3schools.com/css/css_navbar_horizontal.asp
-
-_nov 15th 2022:_
-
-- adding to the README, and rereading the final project guidelines to get a better understanding of the assignment. I then worked on getting a general outline of both what exact text content i would be using (eg describing myself in the about section) and general layout (eg ill use a one page website with sections to jump to, how i want each section to look, etc)
-
-_nov 14th 2022:_
-
-- worked on setting up github repo for the project, creating the initital folder structure
-
-Things to touch on:
-
-1. sessions work (tech used, how tech came together):
-2. what worked:
-3. what didnt work:
-4. issues:
-5. how fixed:
+## Tutorials used
+1. https://www.w3schools.com/css/css_navbar_horizontal.asp 
+2. https://9elements.github.io/fancy-border-radius/ 
+3. https://www.geeksforgeeks.org/form-validation-using-jquery/ 
+4. https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s01.html
+5. https://www.youtube.com/watch?v=wiIbol5tZaI 
+6. https://www.youtube.com/watch?v=OjQP7rPwJyE 
+7. https://stackoverflow.com/questions/24647839/referenceerror-document-is-not-defined-in-plain-javascript/72835588#72835588
+8. https://stackoverflow.com/questions/57768750/how-to-set-custom-height-of-one-row-in-grid/57770087#57770087
+9. https://stackoverflow.com/questions/19162889/how-to-center-font-awesome-icons-horizontally/19162963#19162963
+10. https://stackoverflow.com/questions/49701408/css-grid-auto-height-rows-sizing-to-content/60920387#60920387
+11. https://stackoverflow.com/questions/5408810/jquery-event-binding-with-accessibility-in-mind-click-and-keypress/9386855#9386855
