@@ -45,6 +45,11 @@ CSS styles for introSection.html page
     grid-row: 2;
     grid-column: 1;
   }
+
+  #avatar {
+    width: 90%;
+    height: auto;
+  }
 }
 
 /* tablet + desktop view */
