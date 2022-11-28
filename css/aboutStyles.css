@@ -93,6 +93,11 @@ CSS styles for aboutSection.html page
     display: block;
     margin: 0 auto;
   }
+
+  #avaSummary > p,
+  #cfcSummary > p {
+    margin: 10px 10px;
+  }
 }
 
 /* tablet + desktop view */
@@ -121,7 +126,7 @@ CSS styles for aboutSection.html page
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(3, auto);
-    grid-gap: 10px;
+    grid-gap: 15px;
   }
 
   #avaWork {
