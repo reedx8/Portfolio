@@ -1,8 +1,8 @@
 # Portfolio
-My personal website and portfolio. Deployed @ https://xaviers-portfolio.netlify.app 
+My personal website and portfolio. Deployed @ www.xvreed.com 
 
 ## How to Run
-Navigate to https://xaviers-portfolio.netlify.app, or:
+Navigate to www.xvreed.com, or:
 1. Download the repo
 2. Open the project folder in vscode
 3. Right click on "index.html" file in vscode and select "open with live server"
