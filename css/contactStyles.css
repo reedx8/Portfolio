@@ -39,10 +39,10 @@ CSS styles for contactSection.html page
 
 .btn-submit,
 .btn-reset {
-  width: 20%;
-  padding: 10px 40px;
+  width: 10rem;
+  padding: 5px 30px;
   border: 1px solid var(--green);
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .btn-submit {
