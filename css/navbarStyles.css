@@ -5,6 +5,7 @@ CSS styles for navbar.html
 nav {
   width: 100%;
   padding: 0.9rem;
+  transition: all 700ms ease;
 }
 
 #navbar {
@@ -24,6 +25,7 @@ nav {
 
 .nav-link:hover {
   color: var(--gray2) !important;
+  transition: color 0.2s ease;
 }
 
 .nav-link:link,
