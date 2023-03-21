@@ -8,6 +8,12 @@ CSS styles for introSection.html page
   flex-direction: column;
   justify-content: center;
 }
+#introTextContainer > h1, #introTextContainer > h2 {
+  font-weight: 100;
+}
+#fullStackText {
+  font-weight: 900;
+}
 
 #avatar {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;

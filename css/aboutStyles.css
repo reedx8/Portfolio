@@ -104,29 +104,58 @@ CSS styles for aboutSection.html page
 @media (min-width: 640px) {
   #aboutSection {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    /* background-color: black; */
+    grid-gap: 0;
+    color: white;
+  }
+
+  #diagonalBackground {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: black;
+    /* background-color: #171717; */
+    /* height: 100px; */
+    clip-path: polygon(0 90%, 100% 0, 100% 100%, 0 100%);
+    padding: 4rem 20%;
+  }
+
+  #diagonalBackground2{
+    grid-column: 1 / 3;
+    grid-row: 4;
+    background-color: black;
+    /* background-color: #171717; */
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 30%); */
+    padding: 5rem 20%;
   }
 
   #aboutHeadline {
     grid-column: 1 / 3;
-    grid-row: 1 / 1;
+    grid-row: 2;
+    background-color: black;
+    /* background-color: #171717; */
   }
 
   #skillsContainer {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
+    background-color: black;
+    /* background-color: #171717; */
   }
 
   #previousWorkContainer {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(3, auto);
     grid-gap: 15px;
+    background-color: black;
+    /* background-color: #171717; */
   }
 
   #avaWork {
